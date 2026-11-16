@@ -3,15 +3,25 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Conexão MySQL com PHP</title>
+    <title>Login de Alunos</title>
 </head>
 <body>
 
-    <h1>Conexão MySQL com PHP</h1>
+    <h1>Login de Alunos</h1>
 
-    <h2>Bem-vindo!</h2>
+    <form action="https://alcidesphp.infinityfreeapp.com/login.php" method="POST">
 
-    <p>Meu primeiro site publicado pelo GitHub.</p>
+        <p>CPF:</p>
+        <input type="text" name="cpf" maxlength="11" required>
+
+        <p>Senha:</p>
+        <input type="password" name="senha" required>
+
+        <br><br>
+
+        <button type="submit">Entrar</button>
+
+    </form>
 
 </body>
 </html>
