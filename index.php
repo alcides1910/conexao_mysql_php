@@ -8,9 +8,7 @@
 <body>
 
     <h1>Login de Alunos</h1>
-
-    <form action="https://alcidesphp.infinityfreeapp.com/login.php" method="POST">
-
+<form action="login.php" method="POST">
         <p>CPF:</p>
         <input type="text" name="cpf" maxlength="11" required>
 
